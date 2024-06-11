@@ -181,3 +181,73 @@ b{
     border: 2px solid #DD7F24;
     color: #DD7F24;
 }
+
+/**SERVICIOS**/
+
+.servicios{
+    
+    color: white    ;
+    background-image: url(../img/bgskills.png);
+    position: relative;
+    padding: 100px;
+
+}
+
+
+.tituloservicios{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    
+}
+.card{
+    height: 500px;
+    width: 450px;
+    border-radius: 25px;
+    background-color: #161616;
+    padding: 50px 30px;
+    
+}
+
+.card1{
+    position: relative;
+
+    height: 450px;    
+}
+
+.iconocard{
+    width: 150px;
+}
+
+.titulocard{
+    padding-top: 30px;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.pcard{
+    
+    font-size: 20px ;
+    
+}
+
+.gris{
+    color: gray;
+    
+}
+
+.btncard{
+    position: absolute;
+    bottom: 20px;
+    color: black;
+    height: 40px;
+    width:100%;
+    
+    
+}
