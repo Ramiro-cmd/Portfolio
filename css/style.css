@@ -49,6 +49,7 @@ header{
     color: #fff;
 }
 .btnhead{
+    font-size: 20px;
     height: 70px;
     width: 200px;
     border-radius: 20px;
@@ -103,6 +104,7 @@ b{
 }
 
 .bhero{
+    font-size: 20px;
     left: 130px;
     top: 570px;
     height: 70px;
@@ -124,4 +126,58 @@ b{
     bottom: -15px;
     width: 100%;
 
+}
+
+/**ABOUT**/
+.about{
+    position: relative;
+   
+    background-image: url(../img/bgabout.png);
+    padding: 500px 100px;
+    
+}
+
+.aboutpos{
+    position: absolute;
+    top: 150px;
+    left: 1050px;
+    width: auto;
+    
+    
+}
+
+.tituloabout{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtituloabout{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.parrafoabout{
+    font-size: 20px;
+    color: #fff;
+   
+}
+
+.btns{
+    padding-top: 100px;
+}
+.boton{
+    font-size: 20px;
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+    color: #fff;
+    border:solid #DD7F24;
+    background-color: #DD7F24;
+}
+.boton:hover{
+    background-color: transparent;
+    border: 2px solid #DD7F24;
+    color: #DD7F24;
 }
