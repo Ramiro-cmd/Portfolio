@@ -6,3 +6,58 @@
     text-decoration: none;
     
 }
+
+/*Barra de navegacion*/
+
+header{
+    width: 100%;
+    
+    position: fixed ;
+    background: rgba(24, 24, 24, 0.5);
+    padding: 10px 100px;
+    z-index: 2;
+
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoytexto{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 90px;
+    border-radius: 20px;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.links{
+
+    font-size: 20px;
+}
+.texthead{
+    color: #fff;
+}
+.btnhead{
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    color: #fff;
+    border:solid #DD7F24;
+    background-color: #DD7F24;
+}
+.btnhead:hover{
+    background-color: transparent;
+    border: 2px solid #DD7F24;
+    color: #DD7F24;
+}
