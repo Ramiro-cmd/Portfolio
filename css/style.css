@@ -71,35 +71,34 @@ header{
     background-size: cover;
     
 }
+.heropos{
+    line-height: 80px;
+    position: absolute;
+    left: 130px;
+    top: 320px;
+
+}
 .blanco{
     color: #fff;
-    position: absolute;
 }
 
 b{
     color: #DD7F24;
 }
-.tituloh3{
-  
-    left: 130px;
-    top: 320px;
+.tituloh3{ 
     font-size: 30px;
 
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulohero{
- 
-    left: 130px;
-    top: 390px;
+    
     font-size: 90px;
     font-family:sans-serif;
 }
 
 .parrafo{
    
-    left: 130px;
-    top: 515px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -141,6 +140,7 @@ b{
     position: absolute;
     top: 150px;
     left: 1050px;
+    padding-right: 100px;
     width: auto;
     
     
@@ -149,6 +149,7 @@ b{
 .tituloabout{
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
 
 .subtituloabout{
@@ -188,6 +189,7 @@ b{
     
     color: white    ;
     background-image: url(../img/bgskills.png);
+    background-repeat: no-repeat;
     position: relative;
     padding: 100px;
 
@@ -251,3 +253,24 @@ b{
     
     
 }
+
+/*Contacto*/
+
+.contacto{
+    background-image: url(../img/bgcontacto.png);
+    position: relative;
+    padding: 500px 100px;
+    background-repeat: no-repeat;
+    
+}
+
+.serviciospos{
+    position: absolute;
+    top: 200px;
+    left: 1050px;
+    width: auto;
+}
+
+
+
+
