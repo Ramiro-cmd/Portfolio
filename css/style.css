@@ -69,7 +69,7 @@ header{
     padding: 470px 100px;
     position: relative;
     background-size: cover;
-    
+
 }
 .heropos{
     line-height: 80px;
@@ -133,6 +133,7 @@ b{
    
     background-image: url(../img/bgabout.png);
     padding: 500px 100px;
+    background-size: cover;
     
 }
 
@@ -141,7 +142,7 @@ b{
     top: 150px;
     left: 1050px;
     padding-right: 100px;
-    width: auto;
+    width: 600px;
     
     
 }
@@ -292,6 +293,82 @@ b{
    
 }
 
+@media(max-width:1440px){
+    header{
+        width: 1440px;
+      
+    }
+    .aboutpos{
 
+        position: absolute;
+        top: 150px;
+        left: 900px;
+        padding-right: 100px;
+        width: 600px;
+        
+        
+    }
+    .card{
+        height: 500px;
+        width: 350px;
+        border-radius: 25px;
+        background-color: #161616;
+        padding: 50px 30px;
+        
+    }
+    .iconocard{
+        width: 100px;
+    }
 
+    .proypos{
+   
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        width: 600px;
+    
 
+    }
+    .serviciospos{
+        top: 150px;
+        left: 900px;
+        padding-right: 100px;
+        width: 600px;
+        
+    }
+}
+
+@media(max-width:1280px){
+    header{
+        width: 1280px;
+    }
+    
+    .about{
+        background-image: url(../img/bgaboutresponsive.png);
+    }
+    .aboutpos{
+        left: 300px;
+        padding-right: 100px;
+        width: 900px;
+    }
+    .proypos{
+        left: 300px;
+        padding-right: 100px;
+        width: 900px;
+    }
+    .contacto{
+        background-image: url(../img/bgcontactoresponsive.png);
+    }
+    .serviciospos{
+        left: 300px;
+        padding-right: 100px;
+        width: 900px;
+
+    }
+}
+
+@media(max-width:1280px){
+    header{
+        width: 1024px;
+    }
+}
