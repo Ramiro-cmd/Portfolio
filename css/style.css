@@ -38,7 +38,7 @@ header{
     width: 50%;
     display: flex;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif ;
     
 }
 .links{
@@ -149,7 +149,7 @@ b{
 
 .tituloabout{
     font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: #fff;
 }
 
@@ -199,6 +199,7 @@ b{
 
 .tituloservicios{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cards{
@@ -232,6 +233,7 @@ b{
     padding-top: 30px;
     font-size: 40px;
     padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pcard{
@@ -292,6 +294,7 @@ b{
     width: 600px;
    
 }
+
 
 @media(max-width:1440px){
     header{
